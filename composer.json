@@ -1,0 +1,27 @@
+{
+    "name": "alkhatibdev/laravel-zain",
+    "description": "Zain DSP API integration",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AlkhatibHamad",
+            "email": "alkhatib.hamad@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AlkhatibDev\\LaravelZain\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlkhatibDev\\LaravelZain\\LaravelZainServiceProvider"
+            ]
+
+        }
+    }
+}
