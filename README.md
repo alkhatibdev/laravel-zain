@@ -6,6 +6,11 @@ Laravel Zain is Zain DSP API integration with Laravel, made to simplify the the 
 
 ## Installation
 
+### Requirements
+
+- PHP >= `7.4.x`
+- Laravel >= `7.x`
+
 ### install via composer
 
 ```shell
