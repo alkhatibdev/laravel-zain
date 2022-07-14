@@ -53,7 +53,7 @@ ZAIN_REMEMBER_TOKEN=false
 ### Initial Payment/Subscription
 
 ```php
-use AlkhatibDev\LaravelZain\Zain;
+use AlkhatibDev\LaravelZain\Facades\Zain;
 
 // Initiate payment request
 $response = Zain::initiate($phone)
