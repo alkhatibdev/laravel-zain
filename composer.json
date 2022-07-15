@@ -1,12 +1,21 @@
 {
     "name": "alkhatibdev/laravel-zain",
     "description": "Zain DSP API integration",
+    "homepage": "https://github.com/alkhatibdev/laravel-zain",
+    "keywords": [
+        "zain",
+        "dsp",
+        "integration",
+        "laravel"
+    ],
     "type": "package",
     "license": "MIT",
     "authors": [
         {
             "name": "AlkhatibHamad",
-            "email": "alkhatib.hamad@gmail.com"
+            "email": "me@alkhatib.dev",
+            "homepage": "https://github.com/alkhatibdev",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
