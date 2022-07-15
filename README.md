@@ -6,7 +6,7 @@
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 # Introduction
-Laravel Zain is Zain DSP API integration with Laravel, made to simplify the the process and API calls and let developers focus on other integration parts and logic.
+Laravel Zain is Zain DSP API integration with Laravel, made to simplify the process and API calls and let developers focus on other integration parts and logic. See also [Laravel Sudani](https://github.com/alkhatibdev/laravel-sudani). 
 
 # Installation
 
@@ -102,12 +102,12 @@ $response = Zain::unsubscribe($phone)
 
 Out of the box the package will login automatically and get the `token` and use it for each action `initiate`, `verify` ..etc per request.
 
-If you want cache the token and use it for furthor requests of whole day, you request `token` like this:
+If you want to cache the token and use it for furthor requests, you can request `token` like this:
 
 ```php
 $token = Zain::token()
 ```
-And you can cache it and use for next requests for the next 24 hours.
+And you can cache it and use it for each request for the next 24 hours.
 If you set `ZAIN_REMEMBER_TOKEN=true` token will be expired after 30 days.
 
 Example of using cached token:
