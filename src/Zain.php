@@ -215,6 +215,8 @@ class Zain {
 
             $this->log("Remote Token Fetched");
 
+            $this->token = $response['token']; // To be cached into this instance
+
             return $response['token'];
         }
 
@@ -228,7 +230,7 @@ class Zain {
      */
     private function getAvailableToken()
     {
-        return $this->token ?? $this->token;
+        return $this->token ?? $this->token();
     }
 
     /**

@@ -1,7 +1,12 @@
-# Laravel Zain
+<p align="center"><img src="/socialcard.png" alt="Social Card of Laravel Zain Package"></p>
 
+# Zain DSP API integration with Laravel
+
+[![Latest Version](https://img.shields.io/github/release/alkhatibdev/laravel-zain.svg?style=flat-square)](https://github.com/alkhatibdev/laravel-zain/releases)
+[![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+
+## Introduction
 Laravel Zain is Zain DSP API integration with Laravel, made to simplify the the process and API calls and let developers focus on other integration parts and logic. 
-
 
 
 ## Installation
