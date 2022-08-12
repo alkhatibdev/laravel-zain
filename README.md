@@ -6,7 +6,7 @@
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 # Introduction
-Laravel Zain is Zain DSP API integration with Laravel, made to simplify the the process and API calls and let developers focus on other integration parts and logic.
+Laravel Zain is Zain DSP API integration with Laravel, made to simplify the the process and API calls and let developers focus on other integration parts and logic. See also [Laravel Sudani](https://github.com/alkhatibdev/laravel-sudani).
 
 # Installation
 
